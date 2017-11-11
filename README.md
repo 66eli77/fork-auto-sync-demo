@@ -1,2 +1,4 @@
 # fork-auto-sync-demo
-This repo functions as the upstream and publishes Github events to an AWS SNS topic, the SNS will then invoke an AWS Lambda function to sync the downstream fork using Github APIs.
+This repo demos any push to the upstream will get automatically synced with specified downstream by publishing the Github events to an AWS SNS topic, the SNS will then invoke an AWS Lambda function to perform a pull on the downstream using Github APIs.
+
+
